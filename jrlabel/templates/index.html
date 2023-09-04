@@ -1,0 +1,108 @@
+
+
+{% extends "layout.html" %}
+{% block content %}
+
+ 
+ 
+    <section class="banner full">
+        <article class="img-video " >
+    
+    
+            <video autoplay muted  loop id="video-bg">
+                <source src="{{url_for('static', filename='video/ruger.mp4')}}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+                <header>
+                    <img src="{{url_for('static', filename='profile_pics/homevideo.jpg')}}"  alt="" />
+                    
+                </header>
+                <div class="contentanimation">
+                    <div class="content__container">
+                      <p class="content__container__text ">
+                        Don't
+                      </p>
+                      
+                      <ul class="content__container__list gold">
+                        <li class="content__container__list__item">Hate Song</li>
+                        <li class="content__container__list__item"> Hate a singer</li>
+                        <li class="content__container__list__item">4get to play music</li>
+                        <li class="content__container__list__item"> Listen Alone!</li>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+        </article>
+        <article>
+    
+    
+            <img src="{{url_for('static', filename='profile_pics/home5.jpg')}}"  alt="" />
+            <div class="inner">
+                <header>
+                    <p>Crafting Musical Journeys That Resonate</p>
+                    <h2>Sonic Innovations</h2>
+                    <div  id="animation" class="bg-success">music is life</div>
+                </header>
+            </div>
+        </article>
+        <article>
+    
+    
+            <img src="{{url_for('static', filename='profile_pics/home6.jpg')}}"  alt="" />
+            <div class="inner">
+                <header>
+                    <p> Unveiling the Beat of Creativity</p>
+                    <h2>Harmonizing Dreams</h2>
+                </header>
+            </div>
+        </article>
+        <article>
+            <img src="{{url_for('static', filename='profile_pics/home7.jpg')}}"  alt="" />
+            <div class="inner">
+                <header>
+                    <p>Sed cursus aliuam veroeros lorem ipsum nullam</p>
+                    <h2>Tempus</h2>
+                </header>
+            </div>
+        </article>
+        <article>
+            <img src="{{url_for('static', filename='profile_pics/home3.jpg')}}"  alt="" />
+            <div class="inner">
+                <header>
+                    <p>Where Passion Meets Sound</p>
+                    <h2 class="goldhome">Music Redefined</h2>
+                </header>
+            </div>
+        </article>
+        <article class="img-video">
+            <img src="{{url_for('static', filename='profile_pics/home1.jpg')}} "  alt="" />
+            <div class="inner">
+                <header>
+                    <p> Captivating Hearts Through Notes</p>
+                    <h2>Tunes That Move</h2>
+                </header>
+            </div>
+        </article>
+        <article class="img-video " >
+    
+    
+            <video autoplay muted  loop id="video-bg">
+                <source src="{{url_for('static', filename='video/ruger.mp4')}}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+                <header>
+                    <img src="{{url_for('static', filename='profile_pics/homevideo.jpg')}}"  alt="" />
+                    
+                </header>
+                
+            </div>
+        </article>
+ 
+    </section>
+
+ 
+{% endblock content %}
+
+
+
+
